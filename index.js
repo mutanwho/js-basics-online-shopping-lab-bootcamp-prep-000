@@ -56,8 +56,7 @@ function placeOrder(cardNumber) {
   }
     var amt = total();
     cart.splice(0, cart.length)
-    return "Your total cost is $${amt}, which will be charged to the card ${cardNumber}
- 
+    return "Your total cost is $${amt}, which will be charged to the card ${cardNumber}."
   }
   
 
