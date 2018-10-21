@@ -50,5 +50,11 @@ function removeFromCart(item) {
   
 
 function placeOrder(cardNumber) {
-  // write your code here
+  if(cardNumber){
+    var amt = total()
+    cart = []
+    return "Your total cost is $" + amt +", which will be charged "
+  }
+  }
+  
 }
