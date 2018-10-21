@@ -51,12 +51,5 @@ function removeFromCart(item) {
   
 
 function placeOrder(cardNumber) {
-  var a = parseFloat(total());
-  if(!cardNumber){
-    return ("Sorry, we don't have a credit card on file for you.")}
-  else{
-    cart.length=0;
-    return`Your total cost is $` + a + `, which will be charged to the card `+ cardNumber +"."
-  }
-}
+  
 
