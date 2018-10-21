@@ -51,6 +51,16 @@ function removeFromCart(item) {
   
 
 function placeOrder(cardNumber) {
-  
+  var balance = total()
+  if (typeof cardNumber === "undefined"){
+    return "Sorry, we don\'t have a credit card on file for you."
+  }
+  else {
+    while (cart.length != 0){
+      cart.splice(0,1)
+    }
+    return `Your total cost is $${balance}, which will be charged to the card ${cardNumber}.`
+  }
+}
   
 
