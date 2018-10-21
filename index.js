@@ -53,7 +53,7 @@ function placeOrder(cardNumber) {
   if(cardNumber){
     var amt = total()
     cart = []
-    return "Your total cost is $" + amt +", which will be charged "
+    return "Your total cost is $" + amt +", which will be charged to the card"
   }
   }
   
